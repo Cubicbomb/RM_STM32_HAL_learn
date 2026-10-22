@@ -95,6 +95,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /* task A
+	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+      HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
+	  HAL_Delay(500);
+	  
+	  */
+	  
+	  
+	  
+	  
+	  /* task B
 	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8) == GPIO_PIN_RESET) {
       HAL_Delay(20);
       if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8) == GPIO_PIN_RESET)
@@ -108,14 +119,14 @@ int main(void)
           HAL_Delay(20);
         } while (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8) == GPIO_PIN_RESET);
 
-
       }
     }
-    }
+	*/
+  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  }
+}
   /* USER CODE END 3 */
 
 /**
